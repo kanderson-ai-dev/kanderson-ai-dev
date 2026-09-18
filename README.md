@@ -32,8 +32,3 @@ I specialize in building production-ready AI agents, multi-agent orchestration s
 
 ---
 
-### 🤝 Connect with Me
-
-* **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
-* **Upwork:** [Hire me on Upwork](https://www.upwork.com/freelancers/your-profile)
-* **Email:** [your.email@example.com](mailto:your.email@example.com)
