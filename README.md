@@ -18,7 +18,9 @@ I specialize in building production-ready AI agents, multi-agent orchestration s
 
 ### 🚀 Featured Projects
 
+Welcome to my portfolio! You can explore the full catalog of my engineering builds, architecture details, and technical stacks here:
 
+👉 [**Explore All Projects & Architecture Breakdowns**](https://github.com/kanderson-ai-dev/kanderson-ai-dev/blob/main/PROJECTS.md)
 ---
 
 ### 🛠️ Tech Stack & Tools
