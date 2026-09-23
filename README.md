@@ -8,7 +8,7 @@ I turn messy websites and unstructured data into **reliable datasets, APIs, and 
 the kind that keep running unattended in production, not scripts that break on the first site update.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kaarsten-anderson)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?logo=gmail&logoColor=white)](mailto:you@example.com)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?logo=gmail&logoColor=white)](mailto:kaarsten.anderson@gmail.com)
 
 </div>
 
