@@ -1,28 +1,33 @@
-# 📂 Featured Engineering Projects & Portfolio
+<div align="center">
 
-Welcome to my project showcase. Here is a curated, detailed breakdown of my engineering work in **Agentic AI**, **Backend Systems**, and **Software Engineering**.
+# 📂 Project Catalog
 
----
+**Production-shaped reference implementations** — each one tested, CI'd, Dockerized, and built to be cloned, pointed at a new target, and adapted to a client's use case.
 
-## 🚀 Projects Directory
+[← Back to profile](./README.md)
 
-| Project | Domain / Focus | Key Tech Stack | Repository |
-| :--- | :--- | :--- | :--- |
-| **Agentic Micro API Service** | Agentic AI & Secure Backend | Python, FastAPI, LangGraph, OWASP Guardrails, LangSmith, Pytest | [View Codebase](https://github.com/kanderson-ai-dev/agentic-api) |
+</div>
 
 ---
 
-### 🔍 Project Breakdowns
+## �️ Web Scraping & Data Pipelines
 
-#### 1. Agentic Micro API Service
-* **Description:** Production-ready Agentic API featuring multi-node graph orchestration, real-time telemetry, and enterprise security guardrails.
-* **Key Architecture Highlights:**
-  * **Multi-Node Graph Flow:** Dynamic state execution built with **LangGraph**.
-  * **OWASP LLM01 Mitigation:** Pre-execution active defense against prompt injection in `guardrails.py`.
-  * **Observability:** End-to-end trace logging and execution latency tracking via **LangSmith**.
-  * **Test Harness:** Evaluated using **pytest** suite with 11 automated test cases.
-* **Repository Link:** [kanderson-ai-dev/agentic-api](https://github.com/kanderson-ai-dev/agentic-api)
+| Project | What it does | Tech Stack | Links |
+|---|---|---|---|
+| **Python Web Scraper & Directory Extractor** | Turns any public catalog/directory site into a clean, schema-validated CSV/Excel dataset — designed to be cloned and shipped within a 1-2 hour engagement. | Python, BeautifulSoup, Pydantic, Pandas, `tenacity` | [Repo](https://github.com/kanderson-ai-dev/python-web-scraper-template) |
+| **Dynamic Scraper & AI-Powered Change Monitor** | Watches JS-heavy, dynamically-paginated sites; detects price/stock changes via hash comparison and pushes real-time alerts to Discord/Slack/email. Optional LLM-based extraction for unstable markup. | Python, Playwright, SQLAlchemy, Pydantic, OpenAI-compatible LLMs | [Repo](https://github.com/kanderson-ai-dev/dynamic-scraper-ai-monitor) |
+| **Enterprise Data Pipeline API** | Scheduled, self-healing scraping pipeline with proxy rotation, job history, and an authenticated REST API serving the collected data — deployable with one `docker compose up`. | Python, FastAPI, PostgreSQL, Alembic, APScheduler, Docker | [Repo](https://github.com/kanderson-ai-dev/enterprise-data-pipeline-api) |
+
+## 🤖 Agentic AI & LLM Systems
+
+| Project | What it does | Tech Stack | Links |
+|---|---|---|---|
+| **Agentic API** | Guardrailed, observable LangGraph agent behind a REST API — input/output screening against prompt injection (OWASP LLM01/LLM02), multi-turn memory, SSE streaming, and full observability (LangSmith, Prometheus, structured logs). | Python, FastAPI, LangGraph, OpenAI, LangSmith | [Repo](https://github.com/kanderson-ai-dev/agentic-api) |
 
 ---
 
-[⬅️ Back to Main Profile Overview](https://github.com/kanderson-ai-dev/kanderson-ai-dev#readme)
+<div align="center">
+
+Need one of these adapted to your site or use case? **[Let's talk →](./README.md#-lets-work-together)**
+
+</div>
