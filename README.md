@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Kaarsten 👋
+![Kaarsten Anderson — Python Web Scraping Specialist](./banner.png)
 
 ### Python Web Scraping Specialist · Resilient Pipelines, APIs & AI-Powered Automation
 
