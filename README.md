@@ -8,7 +8,6 @@
 ### I build production-grade AI agents — guardrailed, evaluated, observable, and shipped with the CI/CD discipline a real business needs before an agent touches production traffic.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kaarsten-anderson/)
-[![Upwork](https://img.shields.io/badge/Upwork-Hire%20me-6FDA44?logo=upwork&logoColor=white)](#)
 [![Email](https://img.shields.io/badge/Email-kaarsten.anderson%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:kaarsten.anderson@gmail.com)
 
 </div>
@@ -50,6 +49,13 @@ a README claim.
 ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?logo=pydantic&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?logo=sqlalchemy&logoColor=white)
+
+**Frontend**
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 
 **Scraping / Automation**
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=white)
