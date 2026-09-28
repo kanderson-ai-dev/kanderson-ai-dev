@@ -11,7 +11,8 @@ depth within each.
 
 A four-project ladder, each one a tier above the last: single guardrailed
 agent → self-correcting RAG → hybrid multi-agent research → reusable
-multi-tenant orchestration framework.
+multi-tenant orchestration framework — plus the open-protocol toolkit those
+agents' tool surfaces speak.
 
 ### 1. [LangGraph Multi-Agent Orchestrator](https://github.com/kanderson-ai-dev/langgraph-multiagent-orchestrator)
 
@@ -74,6 +75,25 @@ behind a REST API.
   metrics, all correlated by request ID
 - **Stack:** LangGraph · FastAPI · LangSmith
 - **Quality bar:** 52 tests, 95% coverage, CI green with zero secrets
+
+### + [MCP Agent Toolkit](https://github.com/kanderson-ai-dev/mcp-agent-toolkit) — the protocol layer
+
+A standalone **Model Context Protocol** server + agent client in strict
+TypeScript — the open standard the rest of the ladder's tool surfaces speak,
+implemented end-to-end instead of bespoke bindings.
+
+- Real MCP server (`@modelcontextprotocol/sdk`, stdio) exposing four guarded
+  tools: `web_search`, read-only `db_query`, sandboxed `read_file`/`write_file`
+- The agent discovers tools at runtime via `tools/list` — the protocol is
+  the boundary; the recorded demo shows it recovering from a live SQL error
+- Guardrails at the wire: single-SELECT guard + `readonly` connection,
+  `realpath` path sandbox, output sanitization (OWASP LLM01), per-tool
+  rate limiting
+- Request-ID correlation via `params._meta`, pino JSON logs, Prometheus
+  metrics, 100% offline test mode (`StubLLM`)
+- **Stack:** TypeScript · MCP SDK · OpenAI tool-calling · SQLite · Docker
+- **Quality bar:** 110 tests incl. real-stdio integration, 98.5% coverage,
+  `tsc --strict`, CI green with zero secrets
 
 ---
 

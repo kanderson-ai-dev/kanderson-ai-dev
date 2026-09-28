@@ -81,6 +81,7 @@ a README claim.
 | **[Autonomous Web Research Agent](https://github.com/kanderson-ai-dev/agentic-web-researcher)** | Planner dispatches parallel search/scrape workers, a critic re-plans, a writer synthesizes a cited report | LangGraph · FastAPI |
 | **[Agentic RAG & Knowledge System](https://github.com/kanderson-ai-dev/agentic-rag-system)** | Self-RAG loop: hybrid vector+graph retrieval, self-grading, human escalation instead of hallucinating | LangGraph · Pinecone · Neo4j |
 | **[Guardrailed Agentic AI API](https://github.com/kanderson-ai-dev/agentic-api)** | Guardrailed single-agent service: OWASP LLM01/LLM02 defenses, multi-turn memory, SSE streaming | LangGraph · FastAPI |
+| **[MCP Agent Toolkit](https://github.com/kanderson-ai-dev/mcp-agent-toolkit)** | MCP server + agent client over stdio: runtime tool discovery, sandbox/SELECT-only/LLM01 guardrails, request-ID-correlated observability | TypeScript · MCP SDK · OpenAI |
 
 ### Web Scraping & Data Automation
 
