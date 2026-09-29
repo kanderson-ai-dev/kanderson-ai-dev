@@ -48,6 +48,25 @@ report.
 - **Quality bar:** 143 tests, 93% coverage, `mypy --strict`, offline EDD
   scorecard reproducible via `run_eval`
 
+### + [Research Agent — OpenAI Agents SDK port](https://github.com/kanderson-ai-dev/research-agent-sdk-port) — the framework comparison
+
+A **full-fidelity port** of the research agent above onto the **OpenAI
+Agents SDK** — a controlled experiment: same use case, same API, same
+frontend, same guardrails, same versioned scorecard, different agentic
+runtime.
+
+- `StateGraph`+`Send()`+reducers → `Agent`/`Runner` with `output_type`
+  contracts + `asyncio.gather` fan-out + explicit merges
+- Native `@input_guardrail`/`@output_guardrail` wiring — including the
+  `run_in_parallel=False` fix that keeps guardrail-first real
+- HITL without a checkpointer: serialized `PipelineContext` pause/resume
+  instead of `interrupt()`+`AsyncSqliteSaver`
+- LangSmith tracing via `OpenAIAgentsTracingProcessor`; offline `StubModel`
+  implementing the SDK's `Model` interface
+- **Stack:** OpenAI Agents SDK · FastAPI · Pydantic v2 · LangSmith
+- **Quality bar:** 147 tests, 92% coverage, `mypy --strict`, identical
+  scorecard gates — side-by-side table in the README
+
 ### 3. [Agentic RAG & Knowledge System](https://github.com/kanderson-ai-dev/agentic-rag-system)
 
 Self-RAG microservice that proves its answers instead of asserting them.
