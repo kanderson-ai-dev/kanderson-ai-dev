@@ -16,8 +16,9 @@
 
 ## 👋 About
 
-8+ years as a full-stack developer (2019–present), the last three focused on LLM
-applications and, since 2024, on multi-agent systems built with **LangGraph**.
+Full-stack developer specializing in agentic AI — LLM applications and
+multi-agent systems built with **LangGraph**, taken from API to deployed
+service.
 
 I don't ship tool-calling demos — I ship the layer above the demo: input/output
 guardrails against prompt injection (OWASP LLM Top 10), evaluation scorecards
