@@ -17,4 +17,4 @@ evaluation scorecard.
 
 ---
 
-� **Want something like this for your business?** contact@kaarstenanderson.com
+📩 **Want something like this for your business?** contact@kaarstenanderson.com
