@@ -8,7 +8,7 @@
 ### I build custom multi-agent systems that your business can actually trust in production — guardrailed, evaluated, observable, and shipped with the CI/CD discipline a real company needs before an agent touches live traffic.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kaarsten-anderson/)
-[![Email](https://img.shields.io/badge/Email-kaarsten.anderson%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:kaarsten.anderson@gmail.com)
+[![Email](https://img.shields.io/badge/Email-contact%40kaarstenanderson.com-D14836?logo=maildotru&logoColor=white)](mailto:contact@kaarstenanderson.com)
 
 </div>
 
@@ -40,14 +40,14 @@ scorecard — not a notebook.
 
 **Agentic AI / LLM**
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?logo=langgraph&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C)
-![OpenAI](https://img.shields.io/badge/OpenAI%20API-412991?logo=openai&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-Model%20Context%20Protocol-000000)
-![LangSmith](https://img.shields.io/badge/LangSmith-observability-1C3C3C)
-![Langfuse](https://img.shields.io/badge/Langfuse-observability-0A0A0A)
-![Pinecone](https://img.shields.io/badge/Pinecone-vector%20store-000000)
-![Chroma](https://img.shields.io/badge/Chroma-vector%20store-FF6446)
-![Neo4j](https://img.shields.io/badge/Neo4j-graph%20store-008CC1?logo=neo4j&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?logo=langchain&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?logo=modelcontextprotocol&logoColor=white)
+![LangSmith](https://img.shields.io/badge/LangSmith-1C3C3C?logo=langchain&logoColor=white)
+![Langfuse](https://img.shields.io/badge/Langfuse-0A0A0A)
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?logo=pinecone&logoColor=white)
+![Chroma](https://img.shields.io/badge/Chroma-FF6446)
+![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?logo=neo4j&logoColor=white)
 
 **Backend / API**
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
@@ -69,12 +69,12 @@ scorecard — not a notebook.
 
 **Infra / Quality**
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/CI-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
-![uv](https://img.shields.io/badge/uv-package%20manager-DE5FE9)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
+![uv](https://img.shields.io/badge/uv-DE5FE9?logo=uv&logoColor=white)
 ![Pytest](https://img.shields.io/badge/pytest-0A9EDC?logo=pytest&logoColor=white)
 ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?logo=vitest&logoColor=white)
-![Playwright E2E](https://img.shields.io/badge/E2E-Playwright-2EAD33?logo=playwright&logoColor=white)
-![mypy](https://img.shields.io/badge/mypy--strict-blue)
+![Playwright E2E](https://img.shields.io/badge/Playwright%20E2E-2EAD33?logo=playwright&logoColor=white)
+![mypy](https://img.shields.io/badge/mypy%20strict-1F5082)
 ![Ruff](https://img.shields.io/badge/Ruff-D7FF64?logo=ruff&logoColor=black)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white)
 
@@ -97,6 +97,6 @@ scorecard — not a notebook.
 
 ### Need an agent that works in production, not just in a demo?
 
-📩 **kaarsten.anderson@gmail.com** · 💼 Available for freelance Agentic AI / LLM engineering engagements
+📩 **contact@kaarstenanderson.com** · 💼 Available for freelance Agentic AI / LLM engineering engagements
 
 </div>
