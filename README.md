@@ -27,7 +27,7 @@ involved. I ship the layer above the demo:
 - 🧑‍⚖️ **Human-in-the-loop** approval gates that survive a restart
 - 💰 **Cost-governed autonomy** — agents stay inside the budget you set
 - 📊 **Evaluation scorecards** (faithfulness, cost, latency) gated in CI — measured, not vibes
-- � **Observability** — tracing, structured logs and metrics to prove it works in production
+- 🔍 **Observability** — tracing, structured logs and metrics to prove it works in production
 
 **What you get:** a tested, typed, Dockerized system with a versioned quality
 scorecard — not a notebook.
